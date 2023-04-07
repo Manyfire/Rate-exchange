@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    font-size: 64.2%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(244, 165, 47);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+input {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 7px;
+    background: lightgray;
+    cursor: pointer;
+}
+
+button {
+    border: 1px solid gainsboro;
+    border-radius: 17px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 7px;
+    background: lightgreen;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#conversion {
+    background: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 7px;
+    width: 20%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#mesaje {
+    font-size: 1.5rem;
+    border: 1px solid gray;
+    border-radius: 13px;
+    margin: 10px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
